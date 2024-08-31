@@ -16,7 +16,11 @@ function Contact() {
             </span>
           </h2>
           <div className="contact__form-container">
-            <form action="#" className="contact__form" method="post">
+            <form
+              className="contact__form"
+              method="POST"
+              action="https://formspree.io/f/xrgwnvwk"
+            >
               <input type="hidden" name="form-name" value="form 1" />
               <div className="contact__form-field">
                 <label className="contact__form-label" for="name">
