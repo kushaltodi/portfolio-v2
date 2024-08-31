@@ -2,47 +2,69 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="contact-body" id="contact">
-      <div className="d-flex flex-row justify-content-center p-5 pb-4 fs-1 fw-bold ">
-        CONTACT
-      </div>
-      <div className="heading-underline"></div>
-      <div className="d-flex flex-row justify-content-center">
-        Here you will find more information about me, what I do, and my current
-        skills mostly in terms of programming and technology
-      </div>
-      <div className="contact-form-body">
-        <form className="contact-form">
-          <div className="mb-3">
-            <label htmlFor="inputName" className="form-label">
-              Name
-            </label>
-            <input type="text" className="form-control" id="inputName" />
+    <div>
+      {" "}
+      <section id="contact" className="contact sec-pad dynamicBg">
+        <div className="main-container">
+          <h2 className="heading heading-sec heading-sec__mb-med">
+            <span className="heading-sec__main heading-sec__main--lt">
+              Contact
+            </span>
+            <span className="heading-sec__sub heading-sec__sub--lt">
+              Feel free to Contact me by submitting the form below and I will
+              get back to you as soon as possible
+            </span>
+          </h2>
+          <div className="contact__form-container">
+            <form action="#" className="contact__form" method="post">
+              <input type="hidden" name="form-name" value="form 1" />
+              <div className="contact__form-field">
+                <label className="contact__form-label" for="name">
+                  Name
+                </label>
+                <input
+                  required
+                  placeholder="Enter Your Name"
+                  type="text"
+                  className="contact__form-input"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div className="contact__form-field">
+                <label className="contact__form-label" for="email">
+                  Email
+                </label>
+                <input
+                  required
+                  placeholder="Enter Your Email"
+                  type="email"
+                  className="contact__form-input"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div className="contact__form-field">
+                <label className="contact__form-label" for="message">
+                  Message
+                </label>
+                <textarea
+                  required
+                  cols="30"
+                  rows="10"
+                  className="contact__form-input"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  id="message"
+                ></textarea>
+              </div>
+              <button type="submit" className="btn btn--theme contact__btn">
+                Submit
+              </button>
+            </form>
           </div>
-          <div className="mb-3">
-            <label htmlFor="inputEmail" className="form-label">
-              Email
-            </label>
-            <input type="email" className="form-control" id="inputEmail" />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="inputMessage" className="form-label">
-              Message
-            </label>
-            <textarea
-              placeholder="Enter Your Message"
-              style={{ resize: "none", backgroundColor: "#e6e3e3" }}
-              type="text"
-              className="form-control"
-              id="inputMessage"
-              rows={7}
-            />
-          </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </form>
-      </div>
+        </div>
+      </section>
     </div>
   );
 }
