@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about-body">
+    <div className="about-body" id="about">
       <div className="d-flex flex-row justify-content-center p-5 pb-4 fs-1 fw-bold">
         ABOUT ME
       </div>
@@ -42,17 +42,13 @@ function About() {
             <div className="mt-3">
               <span className="badge text-bg-light fs-6 p-3 me-3">HTML</span>
               <span className="badge text-bg-light fs-6 p-3 me-3">CSS</span>
-              <span className="badge text-bg-light fs-6 p-3 me-3">JavaScript</span>
+              <span className="badge text-bg-light fs-6 p-3 me-3">
+                JavaScript
+              </span>
               <span className="badge text-bg-light fs-6 p-3 me-3">React</span>
             </div>
             <div className="mt-3">
-              <span className="badge text-bg-light fs-6 p-3 me-3">
-                Responsive Design
-              </span>
-              <span className="badge text-bg-light fs-6 p-3 me-3">SEO</span>
-            </div>
-            <div className="mt-3">
-              <span className="badge text-bg-light fs-6 p-3 me-3">DOTNET</span>
+              <span className="badge text-bg-light fs-6 p-3 me-3">.NET</span>
               <span className="badge text-bg-light fs-6 p-3 me-3">JAVA</span>
               <span className="badge text-bg-light fs-6 p-3 me-3">Python</span>
               <span className="badge text-bg-light fs-6 p-3 me-3">C</span>
@@ -63,17 +59,23 @@ function About() {
               <span className="badge text-bg-light fs-6 p-3 me-3">
                 Postgres SQL
               </span>
-              <span className="badge text-bg-light fs-6 p-3 me-3">Mongo DB</span>
+              <span className="badge text-bg-light fs-6 p-3 me-3">
+                Mongo DB
+              </span>
             </div>
             <div className="mt-3">
               <span className="badge text-bg-light fs-6 p-3 me-3">GIT</span>
               <span className="badge text-bg-light fs-6 p-3 me-3">GitHub</span>
+              <span className="badge text-bg-light fs-6 p-3 me-3">
+                Gitlab CI CD
+              </span>
             </div>
             <div className="mt-3">
               <span className="badge text-bg-light fs-6 p-3 me-3">Docker</span>
-              <span className="badge text-bg-light fs-6 p-3 me-3">Kubernetes</span>
-              <span className="badge text-bg-light fs-6 p-3 me-3">Helm Charts</span>
-              <span className="badge text-bg-light fs-6 p-3 me-3">CI CD</span>
+              <span className="badge text-bg-light fs-6 p-3 me-3">
+                Kubernetes
+              </span>
+              <span className="badge text-bg-light fs-6 p-3 me-3">Helm</span>
             </div>
           </div>
         </div>

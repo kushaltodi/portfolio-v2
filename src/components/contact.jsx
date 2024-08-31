@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="contact-body">
+    <div className="contact-body" id="contact">
       <div className="d-flex flex-row justify-content-center p-5 pb-4 fs-1 fw-bold ">
         CONTACT
       </div>
@@ -29,7 +29,14 @@ function Contact() {
             <label htmlFor="inputMessage" className="form-label">
               Message
             </label>
-            <textarea type="text" className="form-control" id="inputMessage" rows={8}/>
+            <textarea
+              placeholder="Enter Your Message"
+              style={{ resize: "none", backgroundColor: "#e6e3e3" }}
+              type="text"
+              className="form-control"
+              id="inputMessage"
+              rows={7}
+            />
           </div>
           <button type="submit" className="btn btn-primary">
             Submit

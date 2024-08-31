@@ -17,17 +17,25 @@ function Footer() {
           <div className="col-4 text-center">
             <div className="fw-bold fs-4 mt-4">SOCIALS</div>
             <div>
-              <i className="fa-brands fa-linkedin-in p-3"></i>
-              <i className="fa-brands fa-github p-3"></i>
-              <i className="fa-brands fa-instagram p-3"></i>
-              <i className="fa-regular fa-envelope p-3"></i>
-              <i className="fa-solid fa-file p-3"></i>
+              <a
+                className="fa-brands fa-linkedin-in p-3 text-decoration-none"
+                href="https://www.linkedin.com/in/kushaltodi/"
+              ></a>
+              <a
+                className="fa-brands fa-github p-3 text-decoration-none"
+                href=""
+              ></a>
+              <a className="fa-brands fa-instagram p-3 text-decoration-none"></a>
+              <a className="fa-regular fa-envelope p-3 text-decoration-none"></a>
+              <a className="fa-solid fa-file p-3 text-decoration-none"></a>
             </div>
           </div>
         </div>
       </div>
-      <hr className="footer-hr"/>
-      <div className="d-flex justify-content-center mt-5">© Copyright 2024 . Made by Kushal Todi</div>
+      <hr className="footer-hr" />
+      <div className="d-flex justify-content-center mt-5">
+        © Copyright 2024 . Made by Kushal Todi
+      </div>
     </div>
   );
 }

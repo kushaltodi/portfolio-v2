@@ -29,8 +29,8 @@ function Projects() {
           >
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Project 1</h5>
-              <p className="card-text">Project 1</p>
+              <h5 className="card-title">Creative Learning Portal</h5>
+              {/* <p className="card-text">Project 1</p> */}
             </div>
           </div>
         </div>
@@ -41,8 +41,8 @@ function Projects() {
           >
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Project 2</h5>
-              <p className="card-text">Project 2</p>
+              <h5 className="card-title">Query Management System</h5>
+              {/* <p className="card-text">Project 2</p> */}
             </div>
           </div>
         </div>
@@ -53,8 +53,8 @@ function Projects() {
           >
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Project 2</h5>
-              <p className="card-text">Project 2</p>
+              <h5 className="card-title">E-Commerce Website</h5>
+              {/* <p className="card-text">Project 2</p> */}
             </div>
           </div>
         </div>
@@ -65,58 +65,82 @@ function Projects() {
           >
             <img src="..." className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">Project 2</h5>
-              <p className="card-text">Project 2</p>
+              <h5 className="card-title">Drowsiness Detector</h5>
+              {/* <p className="card-text">Project 2</p> */}
             </div>
           </div>
         </div>
       </div>
-      <div
-        className={`collapse ${
-          openCollapse === "project1Collapse" ? "show" : ""
-        }`}
-        id="project1Collapse"
-      >
-        <div className="card card-body">
-          Project 1 : Some placeholder content for the collapse component. This
-          panel is hidden by default but revealed when the user activates the
-          relevant trigger.
+      <div className="project-description">
+        <div
+          className={`collapse ${
+            openCollapse === "project1Collapse" ? "show" : ""
+          }`}
+          id="project1Collapse"
+        >
+          <div className="card card-body text-center">
+            <h5 className="card-title">Drowsiness Detector</h5>
+            This project is a comprehensive web portal designed to enhance the
+            learning experience by providing personalized course
+            recommendations. Leveraging a hybrid recommendation system, the
+            platform combines collaborative filtering and content-based
+            filtering to suggest courses that best fit the user's interests and
+            learning history. Built with a robust backend in Python and Node.js,
+            and a dynamic frontend using React.js, the portal ensures a seamless
+            user experience. MongoDB serves as the database, storing user data
+            and course information efficiently.
+          </div>
         </div>
-      </div>
-      <div
-        className={`collapse ${
-          openCollapse === "project2Collapse" ? "show" : ""
-        }`}
-        id="project2Collapse"
-      >
-        <div className="card card-body">
-          Project 2 : Some placeholder content for the collapse component. This
-          panel is hidden by default but revealed when the user activates the
-          relevant trigger.
+        <div
+          className={`collapse ${
+            openCollapse === "project2Collapse" ? "show" : ""
+          }`}
+          id="project2Collapse"
+        >
+          <div className="card card-body">
+            PInspired by the functionality and user experience of Amazon.com,
+            this e-commerce website offers a modern shopping platform. The
+            application is designed with Node.js for the server-side operations
+            and React.js for the client-side, ensuring a responsive and fast
+            user interface. MongoDB is used to manage product inventories and
+            user data, while Firebase provides real-time updates and secure
+            authentication. The platform includes features such as product
+            listings, user reviews, shopping carts, and secure payment gateways.
+          </div>
         </div>
-      </div>
-      <div
-        className={`collapse ${
-          openCollapse === "project3Collapse" ? "show" : ""
-        }`}
-        id="project3Collapse"
-      >
-        <div className="card card-body">
-          Project 3 : Some placeholder content for the collapse component. This
-          panel is hidden by default but revealed when the user activates the
-          relevant trigger.
+        <div
+          className={`collapse ${
+            openCollapse === "project3Collapse" ? "show" : ""
+          }`}
+          id="project3Collapse"
+        >
+          <div className="card card-body">
+            This system is built to efficiently store, manage, and execute SQL
+            queries. Utilizing .NET Core for backend services and PostgreSQL for
+            the database, the platform offers high performance and reliability.
+            The frontend, developed with React.js, provides an intuitive
+            interface for users to interact with the system. Key features
+            include query scheduling, result caching, and detailed query
+            execution reports, making it an indispensable tool for database
+            administrators and developers.
+          </div>
         </div>
-      </div>
-      <div
-        className={`collapse ${
-          openCollapse === "project4Collapse" ? "show" : ""
-        }`}
-        id="project4Collapse"
-      >
-        <div className="card card-body">
-          Project 4 : Some placeholder content for the collapse component. This
-          panel is hidden by default but revealed when the user activates the
-          relevant trigger.
+        <div
+          className={`collapse ${
+            openCollapse === "project4Collapse" ? "show" : ""
+          }`}
+          id="project4Collapse"
+        >
+          <div className="card card-body">
+            This project focuses on enhancing road safety by detecting driver
+            drowsiness in real-time. Using a live camera feed, the system
+            employs Convolutional Neural Networks (CNNs) to analyze facial
+            features and eye movements to determine signs of drowsiness. The
+            application is built with Python and Flask for the backend, with
+            OpenCV handling the computer vision tasks. This innovative solution
+            aims to reduce accidents caused by driver fatigue by providing
+            timely alerts and notifications.
+          </div>
         </div>
       </div>
     </div>
