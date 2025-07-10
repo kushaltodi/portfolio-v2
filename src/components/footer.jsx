@@ -65,16 +65,16 @@ function Footer() {
             <div className="main-footer__row main-footer__row-2">
               <h2 className="heading heading-sm text-lt">Kushal Todi</h2>
               <p className="main-footer__short-desc">
-                A Full-stack Software Engineer proficient in building robust
-                applications with expertise in backend development, frontend
-                design, and DevOps methodologies.
+                Full-stack Software Engineer with a passion for architecting
+                resilient backend systems and driving intelligent automation at
+                scale.
               </p>
             </div>
           </div>
 
           <div className="main-footer__lower">
             &copy; Copyright {date}. Made by
-            <a rel="noreferrer" target="_blank" href="https://kushaltodi.me">
+            <a rel="noreferrer" target="_blank" href={window.location.origin}>
               Kushal Todi
             </a>
           </div>

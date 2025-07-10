@@ -13,9 +13,9 @@ function Home() {
           <h1 className="heading-primary">Hey, I'm Kushal Todi</h1>
           <div className="home-hero__info">
             <p className="text-primary">
-              A Full-stack Software Engineer proficient in building robust
-              applications with expertise in backend development, frontend
-              design, and DevOps methodologies.
+              Building future-ready solutions with a focus on system design,
+              intelligent automation, cloud-native architecture, and AI-driven
+              innovation.
             </p>
           </div>
           <div className="home-hero__cta">
